@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+
+
+// 1den 100e qeder 3e ve 5e bolunen ededlerin cemini hesablayan program
+
+// let a = 1
+// let cem = 0
+// while(a<100){
+//     a++;
+//     if (a%3===0 || a%5===0){
+//         cem+=a;
+//     }
+// }
+// console.log(cem);
+
+
+
+
+
+
+// verilen ededin 2nin quvveti olub olmadigini yoxlayan program
+
+// let eded = parseFloat(prompt("Eded: "));
+// while(eded>1){
+//     if (eded%2!==0){
+//         alert('bu eded 2nin quvveti deyil');
+//         break;
+//     } else{
+//         eded/=2;
+//     }
+//     if(eded===1){
+//         alert('bu eded 2nin quvetidir');
+//     }
+     
+// }
+
+
+
+
+
+
+
+        // verilen ededin sade ve ya murekkeb oldugunu bildiren algoritm
+
+
+        // let eded = parseFloat(prompt('eded: '));
+        // let i = 0;
+        // let say = 0;
+        // while (i < eded) {
+        //     i++;
+        //     if (eded % i === 0) {
+        //         say++;
+        //     }
+        // }
+        // if (say > 2) {
+        //     alert('bu eded murekkeb ededdir');
+        // }
+        // else {
+        //     alert('bu eded sade ededdir ');
+        // }
+
+
+
+
+
+
+        // ay adi verildikde hansi feslin oldugunu gosteren program
+
+        let ay = prompt("Ayi daxil edin: ");
+        switch (ay) {
+            case "dekabr":
+            case "yanvar":
+            case "fevral":
+                alert('Qis fesli')
+                break;
+            case "mart":
+            case "aprel":
+            case "may":
+                alert('Yaz fesli')
+                break;
+            case "iyun":
+            case "iyul":
+            case "avqust":
+                alert('Yay fesli')
+                break;
+            case "sentyabr":
+            case "oktyabr":
+            case "noyabr":
+                alert('Payiz fesli')
+                break;
+            default:
+                alert('Duzgun ay adi daxil edin!!')
+                break;
+        }
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
